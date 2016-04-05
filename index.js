@@ -418,7 +418,7 @@ exports.generateAddress = function (from, nonce) {
  */
 exports.isPrecompiled = function (address) {
   var a = exports.unpad(address)
-  return a.length === 1 && a[0] > 0 && a[0] < 5
+  return a.length === 1 && a[0] > 0 && a[0] < 6
 }
 
 /**
